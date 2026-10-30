@@ -1,0 +1,10 @@
+{
+  "kind": "evm_contracts",
+  "contracts": [
+    {
+      "contract": "SqueekCompanion",
+      "constructorArgs": []
+    }
+  ],
+  "notes": "Deploy SqueekCompanion on Sepolia (chain ID 11155111) with no constructor arguments or ETH. The immutable ERC-721 is named _Squeek Companion with symbol SQCOM. Its constructor mints tokens 1-99 to the fixed reserve recipient 0x3C7838665Ff8215c95500E1a6306e19E146674a0; public minting provides the remaining 900 tokens with one lifetime claim per wallet. Live on-chain JSON and SVG metadata read the fixed SqueekCore proxy at 0x74665dAecA35A2303e767E76a2FF1FB6F93e119f. There is no administrator role or initialization call. CompanionArt is an inlined library and ISqueekCore is an interface; neither needs separate deployment."
+}
